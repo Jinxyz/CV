@@ -1,0 +1,209 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway'; 
+
+body {
+   background-image: url(https://beltz-ianni.com/wp-content/uploads/2017/04/banner-lake.jpg); 
+    background-image: url(https://www.kichler.com/globalassets/images/photography/2.-level-3-headers/1920x400/patio-toman-49690bk-mid-night-1a-1920x400.jpg);   
+    background-repeat: no-repeat;
+    background-size: 1920px 300px;
+    overflow-y: scroll;                                                                                                                                     
+}  
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 1em 1em;
+    text-align: center;
+    margin-top: 75px;
+    width: 32%;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 7px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-size: 50px;    
+}
+
+.yellow
+{
+    background: #4abbf0;
+    width: 40%;
+    border: 5px solid #4abbf0;
+    margin: 0;
+    border-radius: 80px;
+    height: 60px;
+}
+
+
+/* Pull right  */
+div.pullRight a:before
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+div.pullRight a:hover:before
+{
+    width: 100%;
+}
+
+
+
+.div2
+{ 
+    text-align: center;
+}
+
+
+
+
+
+.container_sum {
+    clear: both;
+    background-color: #4abbf0;
+    width: 600px;
+    padding: 10px;
+    border: 5px solid #4abbf0;
+    border-radius: 10px;
+    height: 140px;
+    box-shadow: 7px 7px 3px grey;
+    margin-right: 55px;
+    color: #FFF;
+    text-align: center;
+    float: left;
+    box-shadow: 0px 14px 17px -6px rgba(0,0,0,0.75);
+    margin-top: -100px;
+  } 
+
+ .container_sum_t{
+     font-size: 20px;
+ }
+
+
+  
+  .container_exp {
+    clear: both;
+    background-color: #4abbf0;
+    width: 600px;
+    border: 5px solid #4abbf0;
+    padding: 10px; 
+    border-radius: 10px;
+    height: 175px;
+    box-shadow: 7px 7px 3px grey;
+    margin-right: 55px;
+    margin-top: 20px;
+    float: left;
+    color: #FFF;
+    text-align: center;
+    box-shadow: 0px 14px 17px -6px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    margin-bottom: 500px;
+}
+.container_exp_t {
+ font-size: 20px;
+}
+
+
+
+
+.container_skill {
+    background-color: #4abbf0;
+    width: 625px;
+    border: 5px solid #4abbf0;
+    margin-left: 175px;
+    border-radius: 10px;
+    height: 150px;
+    box-shadow: 7px 7px 3px grey;
+    color: #FFF;
+    text-align: center;
+    float: right;
+    box-shadow: 0px 14px 17px -6px rgba(0,0,0,0.75);
+    margin-top: -100px;
+} 
+
+.container_skill_t{
+    font-size: 20px;
+}
+
+
+.container_edu {
+    background-color: #4abbf0;
+    width: 625px;
+    text-align: center;
+    border: 5px solid #4abbf0;
+    border-radius: 10px;
+    height: 70 px;
+    margin-left: 55px;
+    color: #FFF;
+    float: right;
+    box-shadow: 0px 14px 17px -6px rgba(0,0,0,0.75);
+    margin-right: 0px;
+    margin-top: 30px;
+}
+.container__t{
+    font-size: 20px;
+}
+
+footer {
+    background-color: #4abbf0;
+    border-radius: 10px;
+    border: 5px solid #4abbf0;  
+    width: 400px;
+    padding: 30px;
+    height: 180px;
+    box-shadow: 7px 7px 3px grey;
+    margin: auto;
+    color: #FFF;
+    text-align: left;
+    font-size: 28px;
+    box-shadow: 0px 14px 17px -6px rgba(0,0,0,0.75);
+    margin-top: 355px;
+    
+
+} 
+
+.location {
+    position: absolute;
+    top: 790px;
+    left: 600px;
+}
+.phone {
+    position: absolute;
+    top: 860px;
+    left: 600px;
+}
+.mail {
+    position: absolute;
+    top: 930px;
+    left: 600px;
+}
+
+
+.mus{
+    width: 100px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.profilbild {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: -340px;
+    border-radius: 50%;
+    object-fit: contain;
+}
